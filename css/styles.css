@@ -3,7 +3,7 @@
   --main-color: #2e2f42;
   --second-color-site: #434455;
   --logo-clr-light: #f4f4fd;
-  --bgrond-hdr: #e7e9fc;
+  --bgrond-hdr: #fff;
   --second-color: #434455;
   --first-hdr-crl: #ffffff;
   --nav-hover: #404bbf;
@@ -33,7 +33,6 @@ body {
 .logo {
   color: var(--logo-clr-blue);
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -61,18 +60,18 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  font-style: normal;
+  
   text-decoration: none;
   letter-spacing: 0.02em;
 }
 
 .link-style {
-  font-style: normal;
+ 
   color: var(--main-color);
   text-decoration: none;
 }
 .link {
-  font-style: normal;
+  
   text-decoration: none;
 }
 .adr-style {
@@ -97,7 +96,7 @@ body {
   line-height: 1.07;
   color: var(--first-hdr-crl);
   width: 496px;
-  font-style: normal;
+  
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -110,7 +109,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  font-style: normal;
+  
   font-family: inherit;
   display: flex;
   align-items: center;
@@ -126,7 +125,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  font-style: normal;
+  
   font-family: inherit;
   display: flex;
   align-items: center;
@@ -137,14 +136,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  font-style: normal;
+  
   color: var(--main-color);
   letter-spacing: 0.02em;
 }
 .dignity-txt {
   font-weight: 400;
   font-size: 16px;
-  font-style: normal;
+  
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-color);
@@ -153,7 +152,7 @@ body {
 .second-hdr {
   font-weight: 700;
   font-size: 36px;
-  font-style: normal;
+  
   line-height: 1.11;
   color: var(--main-color);
   text-align: center;
@@ -174,7 +173,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  font-style: normal;
+  
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
@@ -183,7 +182,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--second-color);
-  font-style: normal;
+  
   letter-spacing: 0.02em;
 }
 /* Footer */
@@ -201,7 +200,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: var(--logo-clr-light);
-  font-style: normal;
+  
   letter-spacing: 0.03em;
 }
 
@@ -213,7 +212,7 @@ body {
 .btn-item {
   font-family: 'Roboto', sans-serif;
   color: var(--portfolio-btn-txt);
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -250,7 +249,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  font-style: normal;
+  
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
@@ -259,6 +258,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--second-color);
-  font-style: normal;
+  
   letter-spacing: 0.02em;
 }
