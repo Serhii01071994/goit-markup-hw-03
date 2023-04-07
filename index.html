@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,72 +17,78 @@
     />
     <title>Document</title>
   </head>
-  <body class="main-color">
+  <body class="main-color container">
     <!-- Шапка -->
-    <header class="header">
-      <nav>
-        <a class="logo link" href="./index.html"
-          >Web<span class="logo-clr-dark">Studio</span></a
-        >
-        <ul class="list link">
-          <li class="header-item">
-            <a class="link-style link" href="./index.html">Studio</a>
-          </li>
-          <li class="header-item">
-            <a class="link-style link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a class="link-style link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="adr-style">
-        <ul class="list adr-style">
-          <li>
-            <a class="adr-style link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+    <header class="header section">
+      <div class="header-flex">
+        <nav>
+          <div class="header-nav-flex">
+            <a class="logo link" href="./index.html"
+              >Web<span class="logo-clr-dark">Studio</span></a
             >
-          </li>
-          <li>
-            <a class="adr-style link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+            <ul class="list link header-item">
+              <li class="header-item">
+                <a class="link-style link" href="./index.html">Studio</a>
+              </li>
+              <li class="header-item">
+                <a class="link-style link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="header-item">
+                <a class="link-style link" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <address>
+          <ul class="list adr-style">
+            <li>
+              <a class="adr-style link address" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="adr-style link address" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- Банер -->
       <section class="hero">
-        <h1 class="first-hdr">Effective Solutions for Your Business</h1>
-        <button class="btn-hero" type="button">Order Service</button>
+        <div class="section hero-block">
+          <h1 class="first-hdr">Effective Solutions for Your Business</h1>
+          <button class="btn-hero" type="button">Order Service</button>
+        </div>
       </section>
       <!-- Достоинства -->
       <section class="bgr-clr-first">
         <h2 class="dignity" hidden>Dignity</h2>
-        <ul class="list">
-          <li>
+        <ul class="list dignity-item">
+          <li class="dignity-item-list">
             <h3 class="dignity-hdr">Strategy</h3>
             <p class="dignity-txt">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="dignity-item-list">
             <h3 class="dignity-hdr">Punctuality</h3>
             <p class="dignity-txt">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="dignity-item-list">
             <h3 class="dignity-hdr">Diligence</h3>
             <p class="dignity-txt">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="dignity-item-list">
             <h3 class="dignity-hdr">Technologies</h3>
             <p class="dignity-txt">
               Design practice focused on digital experiences. We bring forth a
