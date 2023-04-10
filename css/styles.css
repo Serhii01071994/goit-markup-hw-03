@@ -85,7 +85,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.header .container {
+.header{
   background-color: var(--bgrond-hdr);
   border-bottom: 1px solid var(--header-border);
 }
@@ -140,11 +140,12 @@ img {
 }
 
 /* Hero */
-
-.hero-block {
-  background: var(--main-color);
+.hero{
   padding: 188px 0;
+  background: var(--main-color);
 }
+
+
 .first-hdr {
   font-weight: 700;
   font-size: 56px;
@@ -248,23 +249,23 @@ img {
 .team-bgr {
   background-color: var(--logo-clr-light);
   width: 1158px;
+  padding: 120px 0
 }
 .team-item {
   background-color: var(--first-hdr-crl);
   width: calc((100% - 72px) / 4);
 }
 
-.team-container {
-  padding-top: 120px;
-}
+
 .team {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-color);
-  padding: 32px 0 8px 0;
+  
   text-align: center;
+  margin-bottom: 8px;
 }
 .team-job {
   font-weight: 400;
@@ -291,6 +292,7 @@ img {
 /* Footer */
 .footer-bgr {
   background-color: var(--main-color);
+  padding: 100px 0;
 }
 
 .logo-clr-light {
@@ -306,9 +308,7 @@ img {
   letter-spacing: 0.03em;
   width: 264px;
 }
-.footer-style {
-  padding: 100px 0;
-}
+
 .logo-ftr {
   margin-bottom: 16px;
   display: inline-block;
@@ -332,10 +332,11 @@ img {
   letter-spacing: 0.04em;
   cursor: pointer;
   height: 48px;
-  padding: 12px 24px;
+  padding: 12px 24px; 
+}
+.btn-style{
   
 }
-
 .btn-item:hover,
 .btn-item:focus {
   background: var(--portfolio-btn-hover-bgr);
@@ -374,8 +375,7 @@ align-items: center;
 } */
 /* Project cards */
 .project-cards-style {
-  background-color: var(--profect-cards-bgr);
-  border: 1px solid var(--project-cards-border);
+ 
   width: calc((100% - 48px) / 3);
   
 }
@@ -385,7 +385,7 @@ align-items: center;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-color);
-  padding: 32px 0 8px 16px;
+ margin-bottom: 8px
 }
 .project-cards-text {
   font-weight: 400;
@@ -393,7 +393,7 @@ align-items: center;
   line-height: 1.5;
   color: var(--second-color);
   letter-spacing: 0.02em;
-  padding: 0 0 32px 16px;
+ 
 }
 .project-cards-flex {
   display: flex;
@@ -406,4 +406,8 @@ align-items: center;
   row-gap: 48px
 
 }
-.link-text{}
+.link-text{
+  padding: 32px 16px;
+   background-color: var(--profect-cards-bgr);
+  border: 1px solid var(--project-cards-border);
+}
