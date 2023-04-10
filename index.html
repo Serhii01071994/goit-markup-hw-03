@@ -19,25 +19,23 @@
   </head>
   <body class="main-color container">
     <!-- Шапка -->
-    <header class="header section">
-      <div class="header-flex">
-        <nav>
-          <div class="header-nav-flex">
-            <a class="logo link" href="./index.html"
-              >Web<span class="logo-clr-dark">Studio</span></a
-            >
-            <ul class="list link header-item">
-              <li class="header-item">
-                <a class="link-style link" href="./index.html">Studio</a>
-              </li>
-              <li class="header-item">
-                <a class="link-style link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="header-item">
-                <a class="link-style link" href="">Contacts</a>
-              </li>
-            </ul>
-          </div>
+    <header class="header">
+      <div class="header-flex container">
+        <nav class="header-nav-flex">
+          <a class="logo link logo-header" href="./index.html"
+            >Web<span class="logo-clr-dark">Studio</span></a
+          >
+          <ul class="list link header-item">
+            <li class="header-item">
+              <a class="link-style link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-item">
+              <a class="link-style link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="link-style link" href="">Contacts</a>
+            </li>
+          </ul>
         </nav>
 
         <address>
@@ -58,8 +56,8 @@
     </header>
     <main>
       <!-- Банер -->
-      <section class="hero">
-        <div class="section hero-block">
+      <section class="hero container">
+        <div class="container hero-block">
           <h1 class="first-hdr">Effective Solutions for Your Business</h1>
           <button class="btn-hero" type="button">Order Service</button>
         </div>
@@ -67,55 +65,60 @@
       <!-- Достоинства -->
       <section class="bgr-clr-first">
         <h2 class="dignity" hidden>Dignity</h2>
-        <ul class="list dignity-item">
-          <li class="dignity-item-list">
-            <h3 class="dignity-hdr">Strategy</h3>
-            <p class="dignity-txt">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li class="dignity-item-list">
-            <h3 class="dignity-hdr">Punctuality</h3>
-            <p class="dignity-txt">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="dignity-item-list">
-            <h3 class="dignity-hdr">Diligence</h3>
-            <p class="dignity-txt">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li class="dignity-item-list">
-            <h3 class="dignity-hdr">Technologies</h3>
-            <p class="dignity-txt">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+        <div class="dignity-item-section container">
+          <ul class="list dignity-item">
+            <li class="dignity-item-list">
+              <h3 class="dignity-hdr">Strategy</h3>
+              <p class="dignity-txt">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="dignity-item-list">
+              <h3 class="dignity-hdr">Punctuality</h3>
+              <p class="dignity-txt">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="dignity-item-list">
+              <h3 class="dignity-hdr">Diligence</h3>
+              <p class="dignity-txt">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="dignity-item-list">
+              <h3 class="dignity-hdr">Technologies</h3>
+              <p class="dignity-txt">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Наши работы -->
-      <section class="bgr-clr-first">
-        <h2 class="second-hdr">What are we doing</h2>
-        <ul class="list list-works">
-          <li>
-            <img src="./images/img1.jpg" alt="image1" width="360" />
-          </li>
-          <li>
-            <img src="./images/img2.jpg" alt="image2" width="360" />
-          </li>
-          <li>
-            <img src="./images/img3.jpg" alt="image3" width="360" />
-          </li>
-        </ul>
+      <section class="bgr-clr-first works">
+        <div class="container">
+          <h2 class="second-hdr">What are we doing</h2>
+          <ul class="list list-works">
+            <li class="list-works-item">
+              <img src="./images/img1.jpg" alt="image1" width="360" />
+            </li>
+            <li class="list-works-item">
+              <img src="./images/img2.jpg" alt="image2" width="360" />
+            </li>
+            <li class="list-works-item">
+              <img src="./images/img3.jpg" alt="image3" width="360" />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Наша команда -->
       <section class="team-bgr">
-        <h2 class="second-hdr">Our Team</h2>
+       <div class="container">
+         <h2 class="second-hdr">Our Team</h2>
         <ul class="list team-list">
           <li class="team-item">
             <img src="./images/imgteam1.jpg" alt="img1" width="264" />
@@ -138,6 +141,7 @@
             <p class="team-job">UI Designer</p>
           </li>
         </ul>
+       </div>
       </section>
     </main>
     <!-- Footer -->
