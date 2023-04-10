@@ -85,7 +85,8 @@ img {
   letter-spacing: 0.03em;
 }
 
-.header {
+.header
+.container {
   background-color: var(--bgrond-hdr);
   border-bottom: 1px solid var(--header-border);
 }
@@ -102,7 +103,7 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   flex-direction: row;
-  gap: 0 40px;
+  gap: 40px;
 }
 
 .link-style {
@@ -116,7 +117,7 @@ img {
   font-size: 16px;
   display: flex;
   flex-direction: row;
-  gap: 0 40px;
+  gap: 40px;
 }
 
 .address {
@@ -140,11 +141,11 @@ img {
 }
 
 /* Hero */
-.section {
-  padding: 0 15px;
-}
-.hero {
-  background: var(--main-color);
+
+
+.hero-block{
+background: var(--main-color);
+ padding: 188px 0;
 }
 .first-hdr {
   font-weight: 700;
@@ -191,10 +192,13 @@ img {
   align-items: center;
   letter-spacing: 0.04em;
 }
-.hero-block {
-  padding: 188px 0;
-}
+
 /* Dignity */
+.dignity{
+background-color: var(--first-hdr-crl);
+padding: 120px 0;
+}
+ 
 
 .dignity-hdr {
   font-weight: 500;
@@ -211,9 +215,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--second-color);
 }
-.dignity-item-section {
-  padding: 120px 0;
-}
+
 .dignity-item {
   display: flex;
   gap: 24px;
@@ -238,8 +240,6 @@ img {
 }
 .works {
   padding-bottom: 120px;
-}
-.bgr-clr-first {
   background-color: var(--first-hdr-crl);
 }
 .list-works-item {
